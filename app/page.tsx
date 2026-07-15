@@ -1,29 +1,30 @@
-import { Benefits } from "../components/landing/benefits";
-import { RobotSquad } from "../components/landing/robot-squad";
-import { Services } from "../components/landing/services";
-import { Contact } from "../components/landing/contact";
-import { FloatingWhatsApp } from "../components/landing/floating-whatsapp";
-import { Footer } from "../components/landing/footer";
-import { Header } from "../components/landing/header";
-import { Hero } from "../components/landing/hero";
-import { HowItWorks } from "../components/landing/how-it-works";
-import { Testimonials } from "../components/landing/testimonials";
+import { Header } from "@/components/layout/header";
+import { Footer } from "@/components/layout/footer";
+import { WhatsAppButton } from "@/components/shared/whatsapp-button";
+import { Hero } from "@/components/home/hero";
+import { Benefits } from "@/components/home/benefits";
+import { HowItWorks } from "@/components/home/how-it-works";
+import { Testimonials } from "@/components/home/testimonials";
+import { FAQ } from "@/components/home/faq";
+import { FinalCTA } from "@/components/home/final-cta";
+import { JsonLd, faqSchema } from "@/components/seo/json-ld";
+import { HOME_FAQ } from "@/lib/data/faq";
 
 export default function Home() {
   return (
     <>
+      <JsonLd data={faqSchema(HOME_FAQ)} />
       <Header />
       <main>
         <Hero />
-        <Services />
-        <RobotSquad />
         <Benefits />
         <HowItWorks />
         <Testimonials />
-        <Contact />
+        <FAQ />
+        <FinalCTA />
       </main>
       <Footer />
-      <FloatingWhatsApp />
+      <WhatsAppButton />
     </>
   );
 }

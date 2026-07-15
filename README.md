@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Renan Duarte — Portal Digital
 
-## Getting Started
+Plataforma moderna de venda de cursos online e produtos PLR do empreendedor digital **Renan Duarte**.
 
-First, run the development server:
+## Stack
+
+- **Next.js 16** (App Router)
+- **TypeScript**
+- **Tailwind CSS v4**
+- **Framer Motion**
+- **Shadcn/UI** (componentes customizados)
+- **SEO avançado** (Schema.org, Sitemap, Open Graph)
+- **Analytics** (GTM, GA, Meta Pixel)
+
+## Páginas
+
+| Rota | Descrição |
+|------|-----------|
+| `/` | Landing page de conversão |
+| `/cursos` | Catálogo de cursos |
+| `/cursos/[slug]` | Detalhe do curso |
+| `/ebooks` | Catálogo de ebooks PLR com filtros |
+| `/biografia` | Trajetória do Renan Duarte |
+| `/blog` | Blog integrado |
+| `/blog/[slug]` | Artigo individual |
+| `/admin/login` | Login administrativo |
+| `/admin/dashboard` | Painel admin |
+
+## Início Rápido
 
 ```bash
+npm install
+cp .env.example .env.local
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Configuração
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Copie `.env.example` para `.env.local` e configure:
 
-## Learn More
+- `NEXT_PUBLIC_WHATSAPP_NUMBER` — Número do WhatsApp
+- `NEXT_PUBLIC_GTM_ID` — Google Tag Manager
+- `NEXT_PUBLIC_GA_ID` — Google Analytics
+- `NEXT_PUBLIC_META_PIXEL_ID` — Meta Pixel (Facebook Ads)
+- URLs de checkout (Hotmart, Kiwify, Eduzz, Perfect Pay)
+- Credenciais admin
 
-To learn more about Next.js, take a look at the following resources:
+## Funcionalidades
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Landing page focada em conversão
+- Catálogo de cursos e ebooks com filtros
+- Captura de leads e newsletter (API routes)
+- Integração WhatsApp flutuante
+- SEO com Schema.org, sitemap e breadcrumbs
+- Preparado para Google Ads e Meta Ads
+- Login administrativo
+- Design premium dark (preto, azul escuro, dourado, branco)
+- Responsivo mobile e desktop
+- Animações Framer Motion
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Imagens
 
-## Deploy on Vercel
+As fotos do Renan Duarte estão em `public/images/`:
+- `renan-professional.png` — Foto profissional
+- `renan-japan.png` — Viagem ao Japão
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deploy
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run build
+npm start
+```
+
+Recomendado: [Vercel](https://vercel.com) para deploy com zero configuração.

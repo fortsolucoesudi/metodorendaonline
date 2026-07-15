@@ -1,30 +1,25 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
-import { BRAND } from "../lib/constants";
+import { BRAND } from "@/lib/constants";
+import { createMetadata } from "@/lib/seo";
+import { Analytics } from "@/components/seo/analytics";
+import { JsonLd, organizationSchema } from "@/components/seo/json-ld";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const playfair = Playfair_Display({
+  variable: "--font-playfair",
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: `${BRAND.name} | Inteligência Artificial para Empresas`,
-  description:
-    "Fort Soluções em Uberlândia: IA, gestão de tráfego pago, gestão de redes sociais e automação para empresas que querem vender mais.",
-  openGraph: {
-    title: `${BRAND.name} | Inteligência Artificial para Empresas`,
-    description:
-      "Transforme sua operação com IA e escale resultados. Consultoria e implementação personalizada.",
-    type: "website",
-    locale: "pt_BR",
-  },
-};
+export const metadata: Metadata = createMetadata({
+  title: `${BRAND.name} | Renda Extra e Marketing Digital`,
+  description: BRAND.description,
+});
 
 export default function RootLayout({
   children,
@@ -34,9 +29,15 @@ export default function RootLayout({
   return (
     <html
       lang="pt-BR"
-      className={`${geistSans.variable} ${geistMono.variable} scroll-smooth`}
+      className={`${inter.variable} ${playfair.variable} scroll-smooth`}
     >
-      <body className="min-h-screen antialiased">{children}</body>
+      <head>
+        <JsonLd data={organizationSchema()} />
+      </head>
+      <body className="min-h-screen antialiased bg-navy text-white">
+        <Analytics />
+        {children}
+      </body>
     </html>
   );
 }
