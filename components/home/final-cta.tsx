@@ -34,8 +34,6 @@ export function FinalCTA() {
                   </Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <Link href="/ebooks">Ver Ebooks PLR</Link>
-                </Button>
               </div>
             </FadeIn>
 
