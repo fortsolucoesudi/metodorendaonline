@@ -9,7 +9,7 @@ export const BRAND = {
 } as const;
 
 export const WHATSAPP_NUMBER =
-  process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "5534999999999";
+  process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "5534991978047";
 
 export const WHATSAPP_MESSAGE =
   "Olá! Vim pelo site do Renan Duarte e gostaria de saber mais sobre os métodos de renda extra.";
