@@ -21,9 +21,9 @@ export function whatsappUrl(message = WHATSAPP_MESSAGE) {
 export const NAV_LINKS = [
   { href: "/", label: "Início" },
   { href: "/cursos", label: "Cursos" },
-  { href: "/ebooks", label: "Ebooks" },
+  { href: "//ebooks", label: "Ebooks" },
   { href: "/biografia", label: "Biografia" },
-  { href: "/blog", label: "Blog" },
+  { href: "//blog", label: "Blog" },
 ] as const;
 
 export const CHECKOUT_PLATFORMS = {
