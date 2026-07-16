@@ -117,7 +117,7 @@ export function Hero() {
         >
           <div className="relative h-[400px] w-[320px] overflow-hidden rounded-2xl border border-white/10 shadow-2xl shadow-gold/10 md:h-[500px] md:w-[380px]">
             <Image
-              src="/images/renan-professional.png"
+              src="/images/Renanfoto.jpeg" 
               alt="Renan Duarte - Empreendedor Digital"
               fill
               className="object-cover object-top"
