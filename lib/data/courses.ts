@@ -35,7 +35,7 @@ export const COURSES: Course[] = [
     subtitle: "Do zero à primeira venda online em 30 dias",
     description:
       "Curso completo para quem deseja criar uma renda extra trabalhando pela internet. Métodos validados, passo a passo, utilizando celular ou computador.",
-    banner: "/images/renan-professional.png",
+    banner: "/images/Renanfoto.jpeg",
     price: 297.0,
     originalPrice: 597.0,
     rating: 4.9,
@@ -113,7 +113,7 @@ export const COURSES: Course[] = [
     subtitle: "Domine as estratégias que geram resultados reais",
     description:
       "Aprenda marketing digital de forma prática com estratégias testadas em mais de 10 anos de mercado. Tráfego, conteúdo, conversão e escala.",
-    banner: "/images/renan-professional.png",
+    banner: "/images/Renanfoto.jpeg",
     price: 397.0,
     originalPrice: 797.0,
     rating: 4.8,
@@ -187,7 +187,7 @@ export const COURSES: Course[] = [
     subtitle: "Automatize, crie e venda com Inteligência Artificial",
     description:
       "Aprenda a utilizar ferramentas de IA para criar produtos digitais, automatizar vendas e escalar seu negócio online com eficiência máxima.",
-    banner: "/images/renan-professional.png",
+    banner: "/images/Renanfoto.jpeg",
     price: 347.0,
     originalPrice: 697.0,
     rating: 4.9,
