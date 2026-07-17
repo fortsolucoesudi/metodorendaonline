@@ -36,7 +36,7 @@ export const COURSES: Course[] = [
     description:
       "Curso iniciante para quem deseja criar uma renda extra trabalhando pela internet. Métodos validados, passo a passo, utilizando celular ou computador.",
     banner: "/images/Renanfoto.jpeg",
-    price: 99.9,
+    price: 99,
     originalPrice: 497.0,
     rating: 4.9,
     reviews: 1247,
@@ -114,8 +114,8 @@ export const COURSES: Course[] = [
     description:
       "Aprenda marketing digital de forma prática com estratégias testadas em mais de 10 anos de mercado. Tráfego, conteúdo, conversão e escala.",
     banner: "/images/Renanfoto.jpeg",
-    price: 1.599.90,
-    originalPrice: 4.497.0,
+    price: 1599,
+    originalPrice: 4497,
     rating: 4.8,
     reviews: 892,
     students: 2150,
@@ -188,8 +188,8 @@ export const COURSES: Course[] = [
     description:
       "Aprenda a utilizar ferramentas de IA para criar produtos digitais, automatizar vendas e escalar seu negócio online com eficiência máxima.",
     banner: "/images/Renanfoto.jpeg",
-    price: 1.199.90,
-    originalPrice: 2.699.90,
+    price: 1199,
+    originalPrice: 2699,
     rating: 4.9,
     reviews: 634,
     students: 1580,
