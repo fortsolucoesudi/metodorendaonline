@@ -100,7 +100,7 @@ export default function BiografiaPage() {
             <FadeIn>
               <div className="relative aspect-[3/4] max-w-md overflow-hidden rounded-2xl border border-white/10 shadow-2xl shadow-gold/10">
                 <Image
-                  src="/images/renan-professional.png"
+                  src="/images/Renanfotosite.png"
                   alt="Renan Duarte - Empreendedor Digital"
                   fill
                   className="object-cover object-top"
