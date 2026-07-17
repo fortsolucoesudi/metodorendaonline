@@ -187,7 +187,7 @@ export default function BiografiaPage() {
             <FadeIn>
               <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-white/10">
                 <Image
-                  src="/images/Renanfotosite.png"
+                  src="/images/renan-japan.png"
                   alt="Renan Duarte no Japão - Experiência Internacional"
                   fill
                   className="object-cover"
