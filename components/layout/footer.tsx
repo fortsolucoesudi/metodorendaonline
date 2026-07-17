@@ -47,6 +47,7 @@ export function Footer() {
               Produtos
             </h4>
             <ul className="flex flex-col gap-3">
+            {/*}
               <li>
                 <Link href="/cursos" className="text-sm text-white/50 hover:text-gold transition-colors">
                   Cursos Online
@@ -62,6 +63,7 @@ export function Footer() {
                   Blog
                 </Link>
               </li>
+              */}
             </ul>
           </div>
         </div>
