@@ -4,8 +4,8 @@ export const BRAND = {
     "Métodos validados para criar renda extra e construir uma carreira na internet.",
   description:
     "Aprenda estratégias de renda extra, marketing digital, IA e negócios online com Renan Duarte. Métodos validados para trabalhar de qualquer lugar.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://renanduarte.com.br",
-  email: "contato@renanduarte.com.br",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.instagram.com/renanduartemg/",
+  email: "fortsolucoesudi@gmail.com",
 } as const;
 
 export const WHATSAPP_NUMBER =

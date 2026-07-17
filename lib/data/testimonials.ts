@@ -56,10 +56,10 @@ export const TESTIMONIALS: Testimonial[] = [
   },
   {
     id: "6",
-    name: "Patrícia Souza",
-    role: "Mãe empreendedora — Fortaleza, CE",
+    name: "Erica Duarte",
+    role: "Mora Fora Desde os 20 anos — Uberlândia, MG",
     content:
-      "Trabalho do conforto de casa, no meu tempo, cuidando dos filhos. Liberdade que eu sempre sonhei.",
+      "Trabalho pelo mundo, no meu tempo, cuidando das minhas coisas.Liberdade que eu sempre sonhei.",
     rating: 5,
     result: "Liberdade de horário total",
   },
