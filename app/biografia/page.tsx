@@ -24,7 +24,7 @@ export const metadata: Metadata = createMetadata({
   description:
     "Conheça a trajetória de Renan Duarte, empreendedor digital com mais de 10 anos de experiência no mercado online.",
   path: "/biografia",
-  image: "/images/renan-professional.png",
+  image: "/images/Renanfotosite.png",
 });
 
 const SECTIONS = [
@@ -32,7 +32,7 @@ const SECTIONS = [
     icon: Briefcase,
     title: "Minha História",
     content:
-      "Sou empreendedor digital e proprietário de uma empresa de marketing com CNPJ ativo há mais de 10 anos. Durante essa trajetória, tive a oportunidade de atuar diretamente no mercado digital, acompanhando as transformações da internet e desenvolvendo estratégias que permitiram construir uma carreira sólida trabalhando online.",
+      "Sou empreendedor digital e proprietário da agência Fort Soluções uma empresa de marketing com CNPJ ativo há 10 anos. Durante essa trajetória, tive a oportunidade de atuar diretamente no mercado digital, acompanhando as transformações da internet e desenvolvendo estratégias que permitiram construir uma carreira sólida trabalhando online.",
   },
   {
     icon: TrendingUp,
@@ -83,9 +83,9 @@ const VALUES = [
 
 const RESULTS = [
   { value: "10+", label: "Anos de mercado" },
-  { value: "3.800+", label: "Alunos formados" },
-  { value: "15+", label: "Países visitados" },
-  { value: "50+", label: "Empresas atendidas" },
+  { value: "500+", label: "Alunos formados" },
+  { value: "2+", label: "Países visitados" },
+  { value: "150+", label: "Empresas atendidas" },
 ];
 
 export default function BiografiaPage() {
