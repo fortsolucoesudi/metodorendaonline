@@ -32,10 +32,10 @@ export const COURSES: Course[] = [
     id: "1",
     slug: "metodo-renda-extra",
     title: "Método Renda Extra Digital",
-    subtitle: "Do zero à primeira venda online em 30 dias",
+    subtitle: "Do zero à primeira venda online em 7 dias",
     description:
       "Curso iniciante para quem deseja criar uma renda extra trabalhando pela internet. Métodos validados, passo a passo, utilizando celular ou computador.",
-    banner: "/images/Renanfoto.jpeg",
+    banner: "/images/renanfoto1.png",
     price: 99,
     originalPrice: 497.0,
     rating: 4.9,
@@ -86,7 +86,7 @@ export const COURSES: Course[] = [
       },
     ],
     certificate: true,
-    guarantee: "Garantia incondicional de 7 dias. Se não gostar, devolvemos 100% do valor.",
+    guarantee: "Garantia incondicional",
     faq: [
       {
         question: "Preciso de experiência prévia?",
@@ -108,12 +108,12 @@ export const COURSES: Course[] = [
   },
   {
     id: "2",
-    slug: "marketing-digital-completo",
-    title: "Marketing Digital Completo",
+    slug: "marketing-digital-na-prática",
+    title: "Marketing Digital Na Prática",
     subtitle: "Domine as estratégias que geram resultados reais",
     description:
       "Aprenda marketing digital de forma prática com estratégias testadas em mais de 10 anos de mercado. Tráfego, conteúdo, conversão e escala.",
-    banner: "/images/Renanfoto.jpeg",
+    banner: "/images/renanfoto3.png",
     price: 1599,
     originalPrice: 4497,
     rating: 4.8,
@@ -125,9 +125,8 @@ export const COURSES: Course[] = [
       "Estratégias validadas em 10+ anos de mercado",
       "Tráfego pago e orgânico",
       "Gestão de redes sociais profissional",
-      "Cases reais de sucesso",
       "Certificado reconhecido",
-      "Mentoria em grupo",
+      "Mentoria Particular",
     ],
     modules: [
       {
@@ -142,7 +141,7 @@ export const COURSES: Course[] = [
         title: "Módulo 2 — Conteúdo e Redes Sociais",
         lessons: [
           "Estratégia de conteúdo",
-          "Instagram, TikTok e YouTube",
+          "Redes Sociais do momento",
           "Copywriting para conversão",
         ],
       },
@@ -164,7 +163,7 @@ export const COURSES: Course[] = [
       },
     ],
     certificate: true,
-    guarantee: "Garantia incondicional de 7 dias.",
+    guarantee: "Garantia incondicional.",
     faq: [
       {
         question: "Serve para quem já trabalha com marketing?",
@@ -187,7 +186,7 @@ export const COURSES: Course[] = [
     subtitle: "Automatize, crie e venda com Inteligência Artificial",
     description:
       "Aprenda a utilizar ferramentas de IA para criar produtos digitais, automatizar vendas e escalar seu negócio online com eficiência máxima.",
-    banner: "/images/Renanfoto.jpeg",
+    banner: "/images/renanfoto4.png",
     price: 1199,
     originalPrice: 2699,
     rating: 4.9,
