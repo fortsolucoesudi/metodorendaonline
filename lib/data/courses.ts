@@ -35,7 +35,7 @@ export const COURSES: Course[] = [
     subtitle: "Do zero à primeira venda online em 7 dias",
     description:
       "Curso iniciante para quem deseja criar uma renda extra trabalhando pela internet. Métodos validados, passo a passo, utilizando celular ou computador.",
-    banner: "/images/renanfoto1.png",
+    banner: "/images/renanfoto5.png",
     price: 99,
     originalPrice: 497.0,
     rating: 4.9,
