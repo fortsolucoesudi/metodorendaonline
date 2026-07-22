@@ -44,7 +44,6 @@ export function Footer() {
 
           <div>
             <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">
-              Produtos
             </h4>
             <ul className="flex flex-col gap-3">
             {/*}
